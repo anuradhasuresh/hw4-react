@@ -1,0 +1,70 @@
+.skew {
+    transform: skew(-20deg);
+  }
+  
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0) skew(-20deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) skew(-20deg);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0) skew(-20deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) skew(-20deg);
+    }
+  }
+  
+.home-div {
+  background-image: url("https://media.cntraveler.com/photos/61e865ea62e14c3f706eea5c/16:9/w_2580,c_limit/Chicago_GettyImages-1180689542.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+  :link {
+    color: #fff;
+    margin-left: 0.5em;
+    border: 1px solid black;
+    padding: 0.5em;
+    -webkit-animation: 0.8s ease-in-out both fade-in;
+            animation: 0.8s ease-in-out both fade-in;
+  }
+
+#intro-para {
+    color: black;
+    font-size: 1.25 em;
+  }
+  
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+  
+.nav a{
+    color: #fff;
+    margin-left: 0.5em;
+    border: 1px solid black;
+    padding: 0.5em;
+    -webkit-animation: 0.8s ease-in-out both fade-in;
+            animation: 0.8s ease-in-out both fade-in;
+  }
+/* .nav a.active {
+    background-color: black;
+    color: white;
+}
+
+.nav a.inactive {
+    /* background-color: black; */
+    /* color: white; */
+/* }  */
+
+  
+  

@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-image: url("https://media.cntraveler.com/photos/61e865ea62e14c3f706eea5c/16:9/w_2580,c_limit/Chicago_GettyImages-1180689542.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("https://media.cntraveler.com/photos/61e865ea62e14c3f706eea5c/16:9/w_2580,c_limit/Chicago_GettyImages-1180689542.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.skew {
+  transform: skew(-20deg);
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0) skew(-20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) skew(-20deg);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0) skew(-20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) skew(-20deg);
+  }
+}
+body {
+  background-image: url("https://media.cntraveler.com/photos/61e865ea62e14c3f706eea5c/16:9/w_2580,c_limit/Chicago_GettyImages-1180689542.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 0.5em;
+  border: 1px solid black;
+  padding: 0.5em;
+  -webkit-animation: 0.8s ease-in-out both fade-in;
+          animation: 0.8s ease-in-out both fade-in;
+}
+.nav-link.active {
+  background-color: black;
+  color: white;
+}
+
+#intro-para {
+  color: black;
+  font-size: 1.25 em;
+}
+
+.nav-link {
+  transform: skew(-20deg);
+  color: #777;
+  text-decoration: none;
+}/*# sourceMappingURL=home-stylesheet.css.map */
+

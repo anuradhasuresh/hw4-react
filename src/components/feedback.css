@@ -1,0 +1,64 @@
+.skew {
+    transform: skew(-20deg);
+  }
+  
+.Feedback {
+  text-align: center;
+  background-image: url('https://github.com/PFW-CS/hw4-reactjs-anuradhasuresh/blob/main/hw4/public/fall.JPEG');
+  background-attachment: fixed;
+  background-size: cover;
+}
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0) skew(-20deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) skew(-20deg);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: scale(0) skew(-20deg);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) skew(-20deg);
+    }
+  }
+
+
+  #form {
+    font-size: 25px;
+  }
+  
+  .input {
+    font-size: 25px;
+  }
+  
+  
+  :link {
+    color: #fff;
+    margin-left: 0.5em;
+    border: 1px solid black;
+    padding: 0.5em;
+    -webkit-animation: 0.8s ease-in-out both fade-in;
+            animation: 0.8s ease-in-out both fade-in;
+  }
+  
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+  
+.nav a{
+    color: #fff;
+    margin-left: 0.5em;
+    border: 1px solid black;
+    padding: 0.5em;
+    -webkit-animation: 0.8s ease-in-out both fade-in;
+            animation: 0.8s ease-in-out both fade-in;
+  }
